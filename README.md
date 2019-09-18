@@ -3,7 +3,7 @@ Quickly get started with Silicon Labs IoT product.
 
 --------------------------------------
 
-TBD  Test
+TBD
 
 --------------------------------------
 
