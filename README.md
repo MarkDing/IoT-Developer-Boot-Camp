@@ -56,7 +56,6 @@ https://www.silabs.com/products/development-tools/software/simplicity-studio
 ## [FAQ](./FAQ.txt)
 --------------------------------------
 
-
 # License 
 ![license](images/license.png)
 
