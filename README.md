@@ -14,7 +14,16 @@ English | [Chinese](./README_CN.md)
 Quickly get started with Silicon Labs IoT product.
 
 --------------------------------------
-![logo](./images/beacon.png)
+<br/>
+<div align="center">
+  <img src="./images/beacon.png">
+</div>
+<br/>
+<div align="center">
+
+</div>
+<br/>
+
 ## Table of Contents
 
 - [Background](#background)
