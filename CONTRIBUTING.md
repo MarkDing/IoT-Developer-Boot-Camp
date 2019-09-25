@@ -1,4 +1,4 @@
-#Contributing to Silabs-IoT-Quickstart
+# Contributing to Silabs-IoT-Quickstart
 
 First of all, we really appreciate your contribution on this project! 
 And please follow the guidelines below for contributing to Silabs-IoT-Quickstart, it inlcudes the coding standard, approaches for how to get the source code, how to report a issue to address a bug,new feature request or documentations improvement.
@@ -30,7 +30,7 @@ All of the contributor involved in this project is governed by the [Silabs-IoT-Q
 
 ### Coding standard
 
-Please refer to the [coding standard](https://github.com/MarkDing/Silabs-IoT-Quickstart/blob/master/CODING-STYLE.md) for the description about the coding standard used in the Silabs-IoT-Quickstart project.
+Please refer to the [coding standard](https://github.com/MarkDing/Silabs-IoT-Quickstart/blob/master/CODING-STANDARD.md) for the description about the coding standard used in the Silabs-IoT-Quickstart project.
 
 ### How to get code ?
 
