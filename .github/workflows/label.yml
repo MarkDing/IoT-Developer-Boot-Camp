@@ -1,15 +1,14 @@
-name: my first workflow
+name: Labeler
 on: [push, pull_request]
 
 jobs:
-  label: my first job
+  label:
 
     runs-on: ubuntu-latest
 
     steps:
-    - name: my first name
-      uses: actions/labeler@v2
+    - uses: actions/labeler@v2
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
       run: |
-        echo "this is my first action"
+        echo "this is my first action test"
