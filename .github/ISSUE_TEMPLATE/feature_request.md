@@ -1,5 +1,5 @@
 ---
-name: Feature request
+name: Feature Request
 about: Create a report for a new feature request
 title: "[FEATURE] A clear and concise description about the new feature request"
 labels: Feature
