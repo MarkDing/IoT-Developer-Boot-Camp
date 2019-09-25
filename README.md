@@ -1,48 +1,54 @@
 # Silabs-IoT-Quickstart
+<br/>
+<div align="center">
+  <img src="./images/projectLogo.png" height="120">
+</div>
+<br/>
+<div align="center">
+
+</div>
+<br/>
+
 English | [Chinese](./README_CN.md)
 
 Quickly get started with Silicon Labs IoT product.
 
 --------------------------------------
-![logo](./beacon.png)
+![logo](./images/beacon.png)
 ## Table of Contents
 
 - [Background](#background)
 - [Architecture](#architecture)
 - [Install](#install)
 - [Usage](#usage)
-	- [Generator](#generator)
-- [Badge](#badge)
-- [Example Readmes](#example-readmes)
-- [Related Efforts](#related-efforts)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
+- [Changelog](#Changelog)
+- [FQA](#FQA)
 - [License](#license)
 
 ## Background
 We have many resources on https://www.silabs.com/support/training, but it is too many for a true beginner. We provide stuff here may help you easier to get start.
 ## Architecture
+![architecture](./images/architecture.png)
 ## Install
+https://www.silabs.com/products/development-tools/software/simplicity-studio
 ## Usage
-## Generator
-## Badge
-## Related Efforts
+
 ## Maintainers
 [@Mark](mark.ding@hotmail.com)
 ## Contributing
-[@Cheng](xxx),[@Jim](xxx)
+[@Cheng](xxx)
 
-## Change log
-v0.0.1(2019/09/30)
-1. bug fixed.
-2. readme.md update
+[@Jim](xxx)
 
-v0.0.0(2019/09/20)
-1. 1st release
+## [Changelog](./Changelog.txt)
 
-## FAQ
+## [FAQ](./FAQ.txt)
 --------------------------------------
 
 
-# License ![license](images/license.png)
+# License 
+![license](images/license.png)
+
 All resources of this repository are released under license [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
