@@ -10,5 +10,4 @@ jobs:
     - uses: actions/labeler@v2
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
-      run: |
-        echo "this is my first action test"
+      run: echo "this is my first action test"
