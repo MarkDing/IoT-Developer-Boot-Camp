@@ -24,7 +24,7 @@ And please follow the guidelines below for contributing to Silabs-IoT-Quickstart
 
 ## Code of Conduct
 
-All of the contributor involved in this project is governed by the [Silabs-IoT-Quickstart Covenant Code of Conduct](https://github.com/MarkDing/Silabs-IoT-Quickstart/blob/master/CONTRIBUTING.md). This is a open source project, and every participating in it can provide your comments on it, submit your pull request for bug fix, new feature implementation or documentation improvement.
+All of the contributor involved in this project is governed by the [Silabs-IoT-Quickstart Covenant Code of Conduct](https://github.com/MarkDing/Silabs-IoT-Quickstart/blob/master/CODE-OF-CONDUCT.md). This is a open source project, and every participating in it can provide your comments on it, submit your pull request for bug fix, new feature implementation or documentation improvement.
 
 ## Contributing guideline
 
@@ -96,7 +96,7 @@ In order to maintain this repository more effectively, we only grant the read pe
 For creating a pull request from your fork, open your fork of the repository, click the "New pull request" button, a new page titled **Comparing changes** will be opened, by default, there are two branches will be shown in this page, the base repository and head repository. Please check them carefully and make sure those make sense as you are about to bringing your changes into the upstream version. Click the ![](./images/contributing-create-pull-request.png) to start to submit your pull request as below.
 ![](./images/contributing-pull-request.png)
 
-* **Title:** A clear and concise description about the pull request, there are three different kind of pull request, [BUG FIX] for bug fix, [FEATURE IMPL] for new feature implementation and [DOC IMP] for documentation improvement respectively. At least, one header of these three is mandatory mandatory in the title field.
+* **Title:** A clear and concise description about the pull request, there are three different kind of pull request, [BUG FIX] for bug fix, [FEATURE IMPL] for new feature implementation and [DOC IMP] for documentation improvement respectively. At least, one header of these three is mandatory in the title field.
 * **Description about the pull request:** Please describe this pull request in detail. It can be a summary of all of the commits included in the pull request.
 * **Review:** Please add the mentions of the person or team responsible for pull request reviewing. Please see the [Maintainers](https://github.com/MarkDing/Silabs-IoT-Quickstart/blob/master/README.md#maintainers) list of this repository.
 
