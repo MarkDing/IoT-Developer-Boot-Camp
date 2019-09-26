@@ -53,7 +53,7 @@ And also please make sure that the issue can be reproduced reliably with the ste
 Navigate to the main page of the repository and click the button ![](./images/contributing-new-issue.png). There are multiple issue types, choose the "Bug Report" to report a Bug you found in this project. 
 Please help to provide the information as detailed as possible while creating a Bug report, the will help maintainers a lot for reproducing the issue.
 ![Bug Report](./images/contributing-bug-report.png)
-* **Title:** A clear and concise description about the issue can highlight the focus of this issue, please note that the header **[BUG]** is mandatory in the title field.
+* **Title:** A clear and concise description about the issue can highlight the focus of this issue, please note that the prefix **[BUG]** is mandatory in the title field.
 * **To Reproduce:** Describe the steps for reproducing the issue as detailed as possible. 
 * **Expected behavior:** Describe the symptom that you observed after following the steps above.
 * **Screenshots:** Provide screenshots to demonstrate the problem. Sometimes a GIF can provide us much more information than a static picture. [GifCam](https://gifcam.en.softonic.com/) is a free and very easy to use tool for creating gif file.
@@ -67,7 +67,7 @@ Navigate to the main page of the repository and click the button ![](./images/co
 
 Please help to provide the information as detailed as possible while submitting a New Feature Request, they will help maintainer a lot for evaluating and implementing the new feature.
 ![Feature Request](./images/contributing-feature-request.png)
-* **Title:** A clear and concise description about the new feature request, and all of the reader of this request can get the point quickly. please note that the header **[FEATURE]** is mandatory in the title field.
+* **Title:** A clear and concise description about the new feature request, and all of the reader of this request can get the point quickly. please note that the prefix **[FEATURE]** is mandatory in the title field.
 * **Is your feature request related to a problem? if so, please describe:** If this new feature is suggested solution for some problem your are facing while using this project, if so, please provide a clear description here.
 * **Describe the new feature you'd like:** Please describe the new feature in detail.
 * **Describe alternative you're considered:** If there is any alternative solutions or features you've considered, please make a description here, it will help us evaluating it.
@@ -84,7 +84,7 @@ We believe that the proposal dees not fit our roadmap at this moment, and set th
 There are lots of documentations included in this repository, if you found any problem with the documentations or any suggestion about the documentation improvement, please submit a "Documentation Improvement" issue to address this request.
 Navigate to the main page of the repository and click the button ![](./images/contributing-new-issue.png). There are multiple issue types, choose the "Documentation Improvement" to submit a request for documentation improvement.
 ![Documentation Improvement](./images/contributing-documentation-improvement.png)
-* **Title:** A clear and concise description about the documentation improvement request. Please note that the header **[DOC]** is mandatory in the title field.
+* **Title:** A clear and concise description about the documentation improvement request. Please note that the prefix **[DOC]** is mandatory in the title field.
 * **Describe the request:** If there is any error you found in the documentation, please describe it as [file name][line number][description]. And provide a clear and concise description if any suggestion about the improvement.
 * **Recommended improvement:** If applicable, please provide the recommended improvement about the documentation, and we will likely to adopt it after review.
 * **Additional context：** You can add any other context not included in the items above but it's helpful for describing the documentation improvement.
@@ -96,7 +96,7 @@ In order to maintain this repository more effectively, we only grant the read pe
 For creating a pull request from your fork, open your fork of the repository, click the "New pull request" button, a new page titled **Comparing changes** will be opened, by default, there are two branches will be shown in this page, the base repository and head repository. Please check them carefully and make sure those make sense as you are about to bringing your changes into the upstream version. Click the ![](./images/contributing-create-pull-request.png) to start to submit your pull request as below.
 ![](./images/contributing-pull-request.png)
 
-* **Title:** A clear and concise description about the pull request, there are three different kind of pull request, [BUG FIX] for bug fix, [FEATURE IMPL] for new feature implementation and [DOC IMP] for documentation improvement respectively. At least, one header of these three is mandatory in the title field.
+* **Title:** A clear and concise description about the pull request, there are three different kind of pull request, [BUG FIX] for bug fix, [FEATURE IMPL] for new feature implementation and [DOC IMP] for documentation improvement respectively. At least, one prefix of these three is mandatory in the title field. And the prefix should be followed by the issue ID [#xx] if this pull request is for a recorded issue.
 * **Description about the pull request:** Please describe this pull request in detail. It can be a summary of all of the commits included in the pull request.
 * **Review:** Please add the mentions of the person or team responsible for pull request reviewing. Please see the [Maintainers](https://github.com/MarkDing/Silabs-IoT-Quickstart/blob/master/README.md#maintainers) list of this repository.
 
