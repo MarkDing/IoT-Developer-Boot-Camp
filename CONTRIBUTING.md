@@ -1,7 +1,7 @@
-# Contributing to Silabs-IoT-Quickstart
+# Contributing to IoT-Developer-Boot-Camp
 
 First of all, we really appreciate your contribution on this project! 
-And please follow the guidelines below for contributing to Silabs-IoT-Quickstart, it inlcudes the coding standard, approaches for how to get the source code, how to report a issue to address a bug,new feature request or documentations improvement.
+And please follow the guidelines below for contributing to IoT-Developer-Boot-Camp, it includes the coding standard, approaches for how to get the source code, how to report a issue to address a bug, new feature request or documentations improvement.
 
 #### Table Of Contents
 
@@ -24,19 +24,19 @@ And please follow the guidelines below for contributing to Silabs-IoT-Quickstart
 
 ## Code of Conduct
 
-All of the contributor involved in this project is governed by the [Silabs-IoT-Quickstart Covenant Code of Conduct](https://github.com/MarkDing/Silabs-IoT-Quickstart/blob/master/CODE-OF-CONDUCT.md). This is a open source project, and every participating in it can provide your comments on it, submit your pull request for bug fix, new feature implementation or documentation improvement.
+All of the contributor involved in this project is governed by the [IoT-Developer-Boot-Camp Covenant Code of Conduct](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/CODE-OF-CONDUCT.md). This is a open source project, and every participating in it can provide your comments on it, submit your pull request for bug fix, new feature implementation or documentation improvement.
 
 ## Contributing guideline
 
 ### Coding standard
 
-Please refer to the [coding standard](https://github.com/MarkDing/Silabs-IoT-Quickstart/blob/master/CODING-STANDARD.md) for the description about the coding standard used in the Silabs-IoT-Quickstart project.
+Please refer to the [coding standard](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/CODING-STANDARD.md) for the description about the coding standard used in the IoT-Developer-Boot-Camp project.
 
 ### How to get code ?
 
-You can access and read the source code [here](https://github.com/MarkDing/Silabs-IoT-Quickstart).
+You can access and read the source code [here](https://github.com/MarkDing/IoT-Developer-Boot-Camp).
 And also clone all code from github to local with command line or GUI tool (for e.g., [Github Desktop](https://desktop.github.com/)), if use the command line, clone the repo with this command: 
-`git clone https://github.com/MarkDing/Silabs-IoT-Quickstart.git -b <branch_name>`
+`git clone https://github.com/MarkDing/IoT-Developer-Boot-Camp.git -b <branch_name>`
 
 
 ### How to contribute ?
@@ -46,6 +46,7 @@ And also clone all code from github to local with command line or GUI tool (for 
 This section guides you how to report a bug to us. We created three templates for different report type, Bug Report, Feature Request and Documentation Improvement request.
 
 #### Report Bug
+
 ##### Before reporting the bug
 Since there are so many contributor work on this project worldwide, it's always encouraged to search the issue list to check if this issue already exist, if so you don't need to create a duplicated one, and please just add your comments on the existing one.
 And also please make sure that the issue can be reproduced reliably with the steps you provided.
@@ -73,7 +74,7 @@ Please help to provide the information as detailed as possible while submitting 
 * **Describe alternative you're considered:** If there is any alternative solutions or features you've considered, please make a description here, it will help us evaluating it.
 * **Additional context：** You can add any other context not included in the items above but it's helpful for describing the new feature request here.
 
-After receiving the new feature request, we (and all of the contributor) will help to evaluate that proposal and check it against the roadmap, and we will update the status of this request depends on the result of evaluation.
+After receiving the new feature request, we (and all of the contributor) will help to evaluate that proposal and check if it against the roadmap, and we will update the status of this request depends on the result of evaluation.
 **Approved:**
 We believe that the proposal is reasonable and realizable, we will update the status of this request with the schedule information.
 **Pending:**
@@ -81,7 +82,7 @@ We believe that the proposal dees not fit our roadmap at this moment, and set th
 
 #### Documentation improvement
 
-There are lots of documentations included in this repository, if you found any problem with the documentations or any suggestion about the documentation improvement, please submit a "Documentation Improvement" issue to address this request.
+There are lots of documentations included in this repository, if you found any problem within the documentations or any suggestion about the documentation improvement, please submit a "Documentation Improvement" issue to address this request.
 Navigate to the main page of the repository and click the button ![](./images/contributing-new-issue.png). There are multiple issue types, choose the "Documentation Improvement" to submit a request for documentation improvement.
 ![Documentation Improvement](./images/contributing-documentation-improvement.png)
 * **Title:** A clear and concise description about the documentation improvement request. Please note that the prefix **[DOC]** is mandatory in the title field.
@@ -98,7 +99,7 @@ For creating a pull request from your fork, open your fork of the repository, cl
 
 * **Title:** A clear and concise description about the pull request, there are three different kind of pull request, [BUG FIX] for bug fix, [FEATURE IMPL] for new feature implementation and [DOC IMP] for documentation improvement respectively. At least, one prefix of these three is mandatory in the title field. And the prefix should be followed by the issue ID [#xx] if this pull request is for a recorded issue.
 * **Description about the pull request:** Please describe this pull request in detail. It can be a summary of all of the commits included in the pull request.
-* **Review:** Please add the mentions of the person or team responsible for pull request reviewing. Please see the [Maintainers](https://github.com/MarkDing/Silabs-IoT-Quickstart/blob/master/README.md#maintainers) list of this repository.
+* **Review:** Please add the mentions of the person or team responsible for pull request reviewing. Please see the [Maintainers](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/README.md#maintainers) list of this repository.
 
 The maintainer of this repository will receive the pull request from the contributor, and they need to review the source code or documentation change, and make sure that all of the source code change follow the [coding standard](#coding-standard). And it's required to squash the multi commits included in the pull request into one commit in the base branch. And reviewer will summarize the combined commit message.
 
