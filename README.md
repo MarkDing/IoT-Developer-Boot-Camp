@@ -1,13 +1,12 @@
-# IoT Developer Boot Camp
-
 <div align="center">
   <img src="./images/projectIcon.png" height="120">
 </div>
 
+[![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-green)](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/LICENSE)
+[![Chat](https://img.shields.io/gitter/room/MarkDing/IoT-Developer-Boot-Camp)](https://gitter.im/IoT-Developer-Boot-Camp/community)
+
 English | [Chinese](./README_CN.md)
 
-[![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-green)](https://creativecommons.org/licenses/by-nc/4.0/)
-[![Chat](https://img.shields.io/gitter/room/MarkDing/IoT-Developer-Boot-Camp)](https://gitter.im/IoT-Developer-Boot-Camp/community)
 <div align="center">
   <img src="./images/beacon.png">
 </div>
@@ -22,7 +21,6 @@ English | [Chinese](./README_CN.md)
 - [Contributors](#contributors)
 - [Changelog](#Changelog)
 - [FAQ](#FAQ)
-- [License](#license)
 
 ## Background
 We have many resources on https://www.silabs.com/support/training, but it is too many for a true beginner. We provide stuff and guide here may help you quickly get started with Silicon Labs IoT product. There will be serval component/topic, you can pickup the one you like or indent to use and try. Welcome your feedback and contribution. 
@@ -64,8 +62,4 @@ https://www.silabs.com/products/development-tools/software/simplicity-studio
 
 ## [FAQ](./FAQ.txt)
 
-# License 
-![license](images/license.png)
-
-All resources of this repository are released under license [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
