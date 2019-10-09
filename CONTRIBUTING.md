@@ -3,18 +3,18 @@
 First of all, we really appreciate your contribution on this project! 
 And please follow the guidelines below for contributing to IoT-Developer-Boot-Camp, it includes the coding standard, approaches for how to get the source code, how to report a issue to address a bug, new feature request or documentations improvement.
 
-#### Table Of Contents
+#### Table of Contents
 
-[Code of Conduct](#Code-of-Conduct)
+[Code of Conduct](#code-of-conduct)
 
-[Contributing guideline](#contributing-guideline)
-   * [Coding standard](#coding-standard)
-   * [How to get code ?](#how-to-get-code-?)
-   * [How to contribute ?](#how-to-contribute-?)   
-      * [Reporting issues](#reporting-issues)
-         * [Report Bug](#report-Bug)
-         * [New feature request](#new-feature-request)
-         * [Documentation improvement](#documentation-improvement)
+[Contributing Guideline](#contributing-guideline)
+   * [Coding Standard](#coding-standard)
+   * [How to Get Code ?](#how-to-get-code)
+   * [How to Contribute ?](#how-to-contribute)   
+      * [Reporting Issues](#reporting-issues)
+         * [Report Bug](#report-bug)
+         * [New Feature Request](#new-feature-request)
+         * [Documentation Improvement](#documentation-improvement)
 
       * [Pull Requests](#pull-requests)
 
@@ -26,28 +26,27 @@ And please follow the guidelines below for contributing to IoT-Developer-Boot-Ca
 
 All of the contributor involved in this project is governed by the [IoT-Developer-Boot-Camp Covenant Code of Conduct](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/CODE-OF-CONDUCT.md). This is a open source project, and every participating in it can provide your comments on it, submit your pull request for bug fix, new feature implementation or documentation improvement.
 
-## Contributing guideline
+## Contributing Guideline
 
-### Coding standard
+### Coding Standard
 
 Please refer to the [coding standard](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/CODING-STANDARD.md) for the description about the coding standard used in the IoT-Developer-Boot-Camp project.
 
-### How to get code ?
-
+### How to Get Code ?
 You can access and read the source code [here](https://github.com/MarkDing/IoT-Developer-Boot-Camp).
 And also clone all code from github to local with command line or GUI tool (for e.g., [Github Desktop](https://desktop.github.com/)), if use the command line, clone the repo with this command: 
 `git clone https://github.com/MarkDing/IoT-Developer-Boot-Camp.git -b <branch_name>`
 
 
-### How to contribute ?
-
-#### Reporting issues
+### How to Contribute ?
+#### Reporting Issues
 
 This section guides you how to report a bug to us. We created three templates for different report type, Bug Report, Feature Request and Documentation Improvement request.
 
 #### Report Bug
 
 ##### Before reporting the bug
+
 Since there are so many contributor work on this project worldwide, it's always encouraged to search the issue list to check if this issue already exist, if so you don't need to create a duplicated one, and please just add your comments on the existing one.
 And also please make sure that the issue can be reproduced reliably with the steps you provided.
 
@@ -80,7 +79,7 @@ We believe that the proposal is reasonable and realizable, we will update the st
 **Pending:**
 We believe that the proposal dees not fit our roadmap at this moment, and set the status of this request as pending that we will consider it later.
 
-#### Documentation improvement
+#### Documentation Improvement
 
 There are lots of documentations included in this repository, if you found any problem within the documentations or any suggestion about the documentation improvement, please submit a "Documentation Improvement" issue to address this request.
 Navigate to the main page of the repository and click the button ![](./images/contributing-new-issue.png). There are multiple issue types, choose the "Documentation Improvement" to submit a request for documentation improvement.
