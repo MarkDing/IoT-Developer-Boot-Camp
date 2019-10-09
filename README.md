@@ -1,28 +1,13 @@
-# Silabs-IoT-Quickstart
-<br/>
-<div align="center">
-  <img src="./images/projectLogo.png" height="120">
-</div>
-<br/>
-<div align="center">
+# IoT Developer Boot Camp
 
+<div align="center">
+  <img src="./images/projectIcon.png" height="120">
 </div>
-<br/>
 
 English | [Chinese](./README_CN.md)
-
-Quickly get started with Silicon Labs IoT product.
-
---------------------------------------
-<br/>
 <div align="center">
   <img src="./images/beacon.png">
 </div>
-<br/>
-<div align="center">
-
-</div>
-<br/>
 
 ## Table of Contents
 
@@ -31,30 +16,50 @@ Quickly get started with Silicon Labs IoT product.
 - [Install](#install)
 - [Usage](#usage)
 - [Maintainers](#maintainers)
-- [Contributing](#contributing)
+- [Contributors](#contributors)
 - [Changelog](#Changelog)
-- [FQA](#FQA)
+- [FAQ](#FAQ)
 - [License](#license)
 
 ## Background
-We have many resources on https://www.silabs.com/support/training, but it is too many for a true beginner. We provide stuff here may help you easier to get start.
+We have many resources on https://www.silabs.com/support/training, but it is too many for a true beginner. We provide stuff and guide here may help you quickly get started with Silicon Labs IoT product. There will be serval component/topic, you can pickup the one you like or indent to use and try, welcome your feedback and contribution. 
+
 ## Architecture
 ![architecture](./images/architecture.png)
+- Home 
+- Zigbee 
+- Bluetooth
+- Proprietary
+- Zwave
+- platform
+- Hardware
+
 ## Install
+Get and install Simplicity Studio and SDKs.
 https://www.silabs.com/products/development-tools/software/simplicity-studio
+
 ## Usage
+ - Read document on wiki: https://github.com/suhuide/IoT-Developer-Boot-Camp/wiki
+ - Clone hands-on code from github to local: git clone https://github.com/suhuide/IoT-Developer-Boot-Camp.git -b <branch_name>
 
 ## Maintainers
-[@Mark](mark.ding@hotmail.com)
-## Contributing
-[@Cheng](xxx)
+[<div align="left">
+  <img src="https://avatars2.githubusercontent.com/u/1233397?s=460&v=4" height="30">](mark.ding@hotmail.com)
 
-[@Jim](xxx)
+## Contributors
+
+<div align="left">
+  <img src="https://avatars2.githubusercontent.com/u/1233397?s=460&v=4" height="30">
+  <img src="https://avatars0.githubusercontent.com/u/22759647?s=460&v=4" height="30">
+  <img src="https://avatars2.githubusercontent.com/u/5843581?s=460&v=4" height="30">  
+  <img src="https://avatars1.githubusercontent.com/u/9652350?s=460&v=4" height="30">  
+  <img src="https://avatars0.githubusercontent.com/u/22948785?s=460&v=4" height="30">
+  <img src="https://avatars0.githubusercontent.com/u/55872625?s=460&v=4" height="30">
+</div>
 
 ## [Changelog](./Changelog.txt)
 
 ## [FAQ](./FAQ.txt)
---------------------------------------
 
 # License 
 ![license](images/license.png)
