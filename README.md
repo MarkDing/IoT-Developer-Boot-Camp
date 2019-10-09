@@ -8,7 +8,7 @@
 English | [Chinese](./README_CN.md)
 
 <div align="center">
-  <img src="./images/beacon.png">
+  <img src="./images/beacon.png" height="320">
 </div>
 
 ## Table of Contents
@@ -17,13 +17,14 @@ English | [Chinese](./README_CN.md)
 - [Architecture](#architecture)
 - [Install](#install)
 - [Usage](#usage)
+- [Contribution](#Contribution)
 - [Maintainers](#maintainers)
 - [Contributors](#contributors)
+- [Community](#Community)
 - [Changelog](#Changelog)
-- [FAQ](#FAQ)
 
 ## Background
-We have many resources on https://www.silabs.com/support/training, but it is too many for a true beginner. We provide stuff and guide here may help you quickly get started with Silicon Labs IoT product. There will be serval component/topic, you can pickup the one you like or indent to use and try. Welcome your feedback and contribution. 
+We would like to provide a quick start guide for those customer who are really new on our wireless product, to get the project quickly setup and put it into the production. After 1 day training course，the customer should be in entry level, able to get fundamental knowledge of the protocol and able to start their project.
 
 ## Architecture
 ![architecture](./images/architecture.png)
@@ -36,16 +37,19 @@ We have many resources on https://www.silabs.com/support/training, but it is too
 - Hardware
 
 ## Install
-Get and install Simplicity Studio and SDKs.
-https://www.silabs.com/products/development-tools/software/simplicity-studio
+Get and install [Simplicity Studio](https://www.silabs.com/products/development-tools/software/simplicity-studio) and SDKs.
 
 ## Usage
- - Read document on wiki: https://github.com/MarkDing/IoT-Developer-Boot-Camp/wiki
+ - Read document on [Github wiki](https://github.com/MarkDing/IoT-Developer-Boot-Camp/wiki)
  - Clone hands-on code from github to local: git clone https://github.com/MarkDing/IoT-Developer-Boot-Camp.git -b <branch_name>
+
+## Contribution
+ - Please refer to [Contributing Guideline](./CONTRIBUTING.md).
 
 ## Maintainers
 [<div align="left">
   <img src="https://avatars2.githubusercontent.com/u/1233397?s=460&v=4" height="30">](mark.ding@hotmail.com)
+</div>
 
 ## Contributors
 
@@ -58,8 +62,11 @@ https://www.silabs.com/products/development-tools/software/simplicity-studio
   <img src="https://avatars0.githubusercontent.com/u/55872625?s=460&v=4" height="30">
 </div>
 
-## [Changelog](./Changelog.txt)
+## Community
+ - Slack
+ - [Silicon Labs Forum](https://www.silabs.com/community)
+ - [gitter](https://gitter.im/IoT-Developer-Boot-Camp/community)
 
-## [FAQ](./FAQ.txt)
+## [Changelog](./Changelog.md)
 
 
