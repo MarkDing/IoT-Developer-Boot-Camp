@@ -1,28 +1,15 @@
-# Silabs-IoT-Quickstart
-<br/>
 <div align="center">
-  <img src="./images/projectLogo.png" height="120">
+  <img src="./images/projectIcon.png" height="120">
 </div>
-<br/>
-<div align="center">
 
-</div>
-<br/>
+[![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-green)](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/LICENSE)
+[![Chat](https://img.shields.io/gitter/room/MarkDing/IoT-Developer-Boot-Camp)](https://gitter.im/IoT-Developer-Boot-Camp/community)
 
 English | [Chinese](./README_CN.md)
 
-Quickly get started with Silicon Labs IoT product.
-
---------------------------------------
-<br/>
 <div align="center">
-  <img src="./images/beacon.png">
+  <img src="./images/beacon.png" height="320">
 </div>
-<br/>
-<div align="center">
-
-</div>
-<br/>
 
 ## Table of Contents
 
@@ -30,33 +17,56 @@ Quickly get started with Silicon Labs IoT product.
 - [Architecture](#architecture)
 - [Install](#install)
 - [Usage](#usage)
+- [Contribution](#Contribution)
 - [Maintainers](#maintainers)
-- [Contributing](#contributing)
+- [Contributors](#contributors)
+- [Community](#Community)
 - [Changelog](#Changelog)
-- [FQA](#FQA)
-- [License](#license)
 
 ## Background
-We have many resources on https://www.silabs.com/support/training, but it is too many for a true beginner. We provide stuff here may help you easier to get start.
+We would like to provide a quick start guide for those customer who are really new on our wireless product, to get the project quickly setup and put it into the production. After 1 day training course，the customer should be in entry level, able to get fundamental knowledge of the protocol and able to start their project.
+
 ## Architecture
 ![architecture](./images/architecture.png)
+- Home 
+- Zigbee 
+- Bluetooth
+- Proprietary
+- Zwave
+- platform
+- Hardware
+
 ## Install
-https://www.silabs.com/products/development-tools/software/simplicity-studio
+Get and install [Simplicity Studio](https://www.silabs.com/products/development-tools/software/simplicity-studio) and SDKs.
+
 ## Usage
+ - Read document on [Github wiki](https://github.com/MarkDing/IoT-Developer-Boot-Camp/wiki)
+ - Clone hands-on code from github to local: git clone https://github.com/MarkDing/IoT-Developer-Boot-Camp.git -b <branch_name>
+
+## Contribution
+ - Please refer to [Contributing Guideline](./CONTRIBUTING.md).
 
 ## Maintainers
-[@Mark](mark.ding@hotmail.com)
-## Contributing
-[@Cheng](xxx)
+[<div align="left">
+  <img src="https://avatars2.githubusercontent.com/u/1233397?s=460&v=4" height="30">](mark.ding@hotmail.com)
+</div>
 
-[@Jim](xxx)
+## Contributors
 
-## [Changelog](./Changelog.txt)
+<div align="left">
+  <img src="https://avatars2.githubusercontent.com/u/1233397?s=460&v=4" height="30">
+  <img src="https://avatars0.githubusercontent.com/u/22759647?s=460&v=4" height="30">
+  <img src="https://avatars2.githubusercontent.com/u/5843581?s=460&v=4" height="30">  
+  <img src="https://avatars1.githubusercontent.com/u/9652350?s=460&v=4" height="30">  
+  <img src="https://avatars0.githubusercontent.com/u/22948785?s=460&v=4" height="30">
+  <img src="https://avatars0.githubusercontent.com/u/55872625?s=460&v=4" height="30">
+</div>
 
-## [FAQ](./FAQ.txt)
---------------------------------------
+## Community
+ - Slack
+ - [Silicon Labs Forum](https://www.silabs.com/community)
+ - [gitter](https://gitter.im/IoT-Developer-Boot-Camp/community)
 
-# License 
-![license](images/license.png)
+## [Changelog](./Changelog.md)
 
-All resources of this repository are released under license [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
