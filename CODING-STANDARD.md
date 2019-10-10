@@ -52,6 +52,8 @@ The purpose of this article is to describe the coding standing used in the IoT-D
           * [Filenames and directories use lower case (Required)](#filenames-and-directories-use-lower-case-required)
           * [Avoid duplicate filenames](#avoid-duplicate-filenames)
           * [Directory names (Required)](#directory-names-required)
+
+[Revision History](#revision-history)
 ***
 
 ## General Guidelines
@@ -379,7 +381,7 @@ Note: Among our entire source code there will be files with the same name. This
 ##### Directory names (Required)
 Directories use lower case names and underscores as word separators.
 ***
-## Reversion Information
+## Revision History
 **Revision 1.0**
    * 2019-09-26
    * Initial Revision
