@@ -50,8 +50,8 @@ For example, if the picture (or screenshot) belongs the hands on documentation o
 Please use the clear abbreviations to avoid too long file name, however, please make sure the name convey the purpose of the picture (or screenshot) as clearly as possible.
 
 ### How to Get Code ?
-You can access and read the source code [here](https://github.com/MarkDing/IoT-Developer-Boot-Camp).
-And also clone all code from github to local with command line or GUI tool (for e.g., [Github Desktop](https://desktop.github.com/)), if use the command line, clone the repo with this command:  
+The user can access and read the source code online [here](https://github.com/MarkDing/IoT-Developer-Boot-Camp), or clone all source code from github to local with command line or GUI tool (for e.g., [Github Desktop](https://desktop.github.com/)), please note that user has only read permission in this case, please refer to the section [Pull Request](#pull-requests) for how to contribute your source code to this repository.  
+If use the command line, clone the repo with this command:  
 `git clone https://github.com/MarkDing/IoT-Developer-Boot-Camp.git -b <branch_name>`
 
 ### How to Contribute ?
@@ -119,7 +119,7 @@ Navigate to the main page of the repository and click the button ![](./images/Mi
 
 ### Pull Requests
 
-In order to maintain this repository more effectively, we only grant the read permissions to the contributor, so if you want to create a new branch for your pull request, please fork the repository first, and then make changes to the fork and submit your pull request. For more information, please see [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
+In order to maintain this repository more effectively, we only grant the read permissions to the contributor, so if you want to contribute your source code, please fork the repository first, and then commit changes to your fork and submit your pull request. For more information, please see [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
 
 For creating a pull request from your fork, open your fork of the repository, click the "New pull request" button, a new page titled **Comparing changes** will be opened, by default, there are two branches will be shown in this page, the base repository and head repository. Please check them carefully and make sure those make sense as you are about to bringing your changes into the upstream version. Click the ![](./images/Miscellaneous/contributing_create_pull_request.png) to start to submit your pull request as below.
 
