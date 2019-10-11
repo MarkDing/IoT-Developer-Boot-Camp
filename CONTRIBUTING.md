@@ -9,8 +9,9 @@ And please follow the guidelines below for contributing to IoT-Developer-Boot-Ca
 
 [Contributing Guideline](#contributing-guideline)
    * [Coding Standard](#coding-standard)
-   * [How to Get Code ?](#how-to-get-code)
-   * [How to Contribute ?](#how-to-contribute)   
+   * [Documentation](#documentation)
+   * [How to Get Code ?](#how-to-get-code-)
+   * [How to Contribute ?](#how-to-contribute-)
       * [Reporting Issues](#reporting-issues)
          * [Report Bug](#report-bug)
          * [New Feature Request](#new-feature-request)
@@ -32,11 +33,26 @@ All of the contributor involved in this project is governed by the [IoT-Develope
 
 Please refer to the [coding standard](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/CODING-STANDARD.md) for the description about the coding standard used in the IoT-Developer-Boot-Camp project.
 
+### Documentation
+All of the documentation of this repository are hosted in the [wiki](https://github.com/MarkDing/IoT-Developer-Boot-Camp/wiki), user can access and contribute to the documentations by following the [code of conduct](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/CODE-OF-CONDUCT.md).
+And there is a dedicated folder ***images*** to manage all of the pictures or screenshots used in this project. There are few different directories for different sub projects, such as Zigbee, Bluetooth, Proprietary, etc, respectively. 
+
+   **Zigbee**: images for the Zigbee workshop.  
+   **Bluetooth**: images for the Bluetooth workshop.  
+   **Proprietary**: images for the Proprietary workshop.  
+   **ZWave**: images for the ZWave workshop.  
+   **Platform**: images for the Platform workshop.  
+   **Tools**: images for the Tools workshop.  
+   **Miscellaneous**: images for the repository description, e.g., readme, contributing guideline, etc.  
+
+Please note that all file names under the ***image*** folder are lower case and multiple words are separated with one underscore '_'. And the recommended naming rule is *workshop_documentation_section_description.jpg*
+For example, if the picture (or screenshot) belongs the hands on documentation of the Bluetooth advertising workshop to illustrate the advertisement data structure, the recommend potential name *can be bleadv_handson_adv_datastructure.png*
+Please use the clear abbreviations to avoid too long file name, however, please make sure the name convey the purpose of the picture (or screenshot) as clearly as possible.
+
 ### How to Get Code ?
 You can access and read the source code [here](https://github.com/MarkDing/IoT-Developer-Boot-Camp).
-And also clone all code from github to local with command line or GUI tool (for e.g., [Github Desktop](https://desktop.github.com/)), if use the command line, clone the repo with this command: 
+And also clone all code from github to local with command line or GUI tool (for e.g., [Github Desktop](https://desktop.github.com/)), if use the command line, clone the repo with this command:  
 `git clone https://github.com/MarkDing/IoT-Developer-Boot-Camp.git -b <branch_name>`
-
 
 ### How to Contribute ?
 #### Reporting Issues
@@ -50,9 +66,13 @@ This section guides you how to report a bug to us. We created three templates fo
 Since there are so many contributor work on this project worldwide, it's always encouraged to search the issue list to check if this issue already exist, if so you don't need to create a duplicated one, and please just add your comments on the existing one.
 And also please make sure that the issue can be reproduced reliably with the steps you provided.
 
-Navigate to the main page of the repository and click the button ![](./images/contributing-new-issue.png). There are multiple issue types, choose the "Bug Report" to report a Bug you found in this project. 
+Navigate to the main page of the repository and click the button ![](./images/Miscellaneous/contributing_new_issue.png). There are multiple issue types, choose the "Bug Report" to report a Bug you found in this project. 
 Please help to provide the information as detailed as possible while creating a Bug report, the will help maintainers a lot for reproducing the issue.
-![Bug Report](./images/contributing-bug-report.png)
+
+<div align="center">
+  <img src="./images/Miscellaneous/contributing_bug_report.png">
+</div>
+
 * **Title:** A clear and concise description about the issue can highlight the focus of this issue, please note that the prefix **[BUG]** is mandatory in the title field.
 * **To Reproduce:** Describe the steps for reproducing the issue as detailed as possible. 
 * **Expected behavior:** Describe the symptom that you observed after following the steps above.
@@ -63,10 +83,14 @@ Please help to provide the information as detailed as possible while creating a 
 
 You can submit your ideas about new features by submitting a "New Feature Request". In order to come up with a good New Feature proposal, please seriously consider your proposal before submitting it, and make sure it's reasonable and the user of this project will benefit from this new feature.
 
-Navigate to the main page of the repository and click the button ![](./images/contributing-new-issue.png). There are multiple issue types, choose the "Feature Request" to submit a request for your proposal.
+Navigate to the main page of the repository and click the button ![](./images/Miscellaneous/contributing_new_issue.png). There are multiple issue types, choose the "Feature Request" to submit a request for your proposal.
 
 Please help to provide the information as detailed as possible while submitting a New Feature Request, they will help maintainer a lot for evaluating and implementing the new feature.
-![Feature Request](./images/contributing-feature-request.png)
+
+<div align="center">
+  <img src="./images/Miscellaneous/contributing_feature_request.png">
+</div>
+
 * **Title:** A clear and concise description about the new feature request, and all of the reader of this request can get the point quickly. please note that the prefix **[FEATURE]** is mandatory in the title field.
 * **Is your feature request related to a problem? if so, please describe:** If this new feature is suggested solution for some problem your are facing while using this project, if so, please provide a clear description here.
 * **Describe the new feature you'd like:** Please describe the new feature in detail.
@@ -82,8 +106,12 @@ We believe that the proposal dees not fit our roadmap at this moment, and set th
 #### Documentation Improvement
 
 There are lots of documentations included in this repository, if you found any problem within the documentations or any suggestion about the documentation improvement, please submit a "Documentation Improvement" issue to address this request.
-Navigate to the main page of the repository and click the button ![](./images/contributing-new-issue.png). There are multiple issue types, choose the "Documentation Improvement" to submit a request for documentation improvement.
-![Documentation Improvement](./images/contributing-documentation-improvement.png)
+Navigate to the main page of the repository and click the button ![](./images/Miscellaneous/contributing_new_issue.png). There are multiple issue types, choose the "Documentation Improvement" to submit a request for documentation improvement.
+
+<div align="center">
+  <img src="./images/Miscellaneous/contributing_documentation_improvement.png">
+</div>
+
 * **Title:** A clear and concise description about the documentation improvement request. Please note that the prefix **[DOC]** is mandatory in the title field.
 * **Describe the request:** If there is any error you found in the documentation, please describe it as [file name][line number][description]. And provide a clear and concise description if any suggestion about the improvement.
 * **Recommended improvement:** If applicable, please provide the recommended improvement about the documentation, and we will likely to adopt it after review.
@@ -93,8 +121,11 @@ Navigate to the main page of the repository and click the button ![](./images/co
 
 In order to maintain this repository more effectively, we only grant the read permissions to the contributor, so if you want to create a new branch for your pull request, please fork the repository first, and then make changes to the fork and submit your pull request. For more information, please see [Creating a pull request from a fork](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).
 
-For creating a pull request from your fork, open your fork of the repository, click the "New pull request" button, a new page titled **Comparing changes** will be opened, by default, there are two branches will be shown in this page, the base repository and head repository. Please check them carefully and make sure those make sense as you are about to bringing your changes into the upstream version. Click the ![](./images/contributing-create-pull-request.png) to start to submit your pull request as below.
-![](./images/contributing-pull-request.png)
+For creating a pull request from your fork, open your fork of the repository, click the "New pull request" button, a new page titled **Comparing changes** will be opened, by default, there are two branches will be shown in this page, the base repository and head repository. Please check them carefully and make sure those make sense as you are about to bringing your changes into the upstream version. Click the ![](./images/Miscellaneous/contributing_create_pull_request.png) to start to submit your pull request as below.
+
+<div align="center">
+  <img src="./images/Miscellaneous/contributing_pull_request.png">
+</div>
 
 * **Title:** A clear and concise description about the pull request, there are three different kind of pull request, [BUG FIX] for bug fix, [FEATURE IMPL] for new feature implementation and [DOC IMP] for documentation improvement respectively. At least, one prefix of these three is mandatory in the title field. And the prefix should be followed by the issue ID [#xx] if this pull request is for a recorded issue.
 * **Description about the pull request:** Please describe this pull request in detail. It can be a summary of all of the commits included in the pull request.
@@ -102,8 +133,9 @@ For creating a pull request from your fork, open your fork of the repository, cl
 
 The maintainer of this repository will receive the pull request from the contributor, and they need to review the source code or documentation change, and make sure that all of the source code change follow the [coding standard](#coding-standard). And it's required to squash the multi commits included in the pull request into one commit in the base branch. And reviewer will summarize the combined commit message.
 
-![](./images/contributing-merge-pull-request.png)
-
+<div align="center">
+  <img src="./images/Miscellaneous/contributing_merge_pull_request.png">
+</div>
 
 ## Reversion Information
 **Revision 1.0**
