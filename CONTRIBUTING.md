@@ -37,13 +37,13 @@ Please refer to the [coding standard](https://github.com/MarkDing/IoT-Developer-
 All of the documentation of this repository are hosted in the [wiki](https://github.com/MarkDing/IoT-Developer-Boot-Camp/wiki), user can access and contribute to the documentations by following the [code of conduct](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/CODE-OF-CONDUCT.md).
 And there is a dedicated folder ***images*** to manage all of the pictures or screenshots used in this project. There are few different directories for different sub projects, such as Zigbee, Bluetooth, Proprietary, etc, respectively. 
 
-   **Zigbee**: images for the Zigbee workshop.
-   **Bluetooth**: images for the Bluetooth workshop.
-   **Proprietary**: images for the Proprietary workshop.
-   **ZWave**: images for the ZWave workshop.
-   **Platform**: images for the Platform workshop.
-   **Tools**: images for the Tools workshop.
-   **Miscellaneous**: images for the repository description, e.g., readme, contributing guideline, etc.
+   **Zigbee**: images for the Zigbee workshop.  
+   **Bluetooth**: images for the Bluetooth workshop.  
+   **Proprietary**: images for the Proprietary workshop.  
+   **ZWave**: images for the ZWave workshop.  
+   **Platform**: images for the Platform workshop.  
+   **Tools**: images for the Tools workshop.  
+   **Miscellaneous**: images for the repository description, e.g., readme, contributing guideline, etc.  
 
 Please note that all file names under the ***image*** folder are lower case and multiple words are separated with one underscore '_'. And the recommended naming rule is *workshop_documentation_section_description.jpg*
 For example, if the picture (or screenshot) belongs the hands on documentation of the Bluetooth advertising workshop to illustrate the advertisement data structure, the recommend potential name *can be bleadv_handson_adv_datastructure.png*
