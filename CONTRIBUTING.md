@@ -51,7 +51,7 @@ Please use the clear abbreviations to avoid too long file name, however, please 
 
 ### How to Get Code ?
 You can access and read the source code [here](https://github.com/MarkDing/IoT-Developer-Boot-Camp).
-And also clone all code from github to local with command line or GUI tool (for e.g., [Github Desktop](https://desktop.github.com/)), if use the command line, clone the repo with this command: 
+And also clone all code from github to local with command line or GUI tool (for e.g., [Github Desktop](https://desktop.github.com/)), if use the command line, clone the repo with this command:  
 `git clone https://github.com/MarkDing/IoT-Developer-Boot-Camp.git -b <branch_name>`
 
 ### How to Contribute ?
