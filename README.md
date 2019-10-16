@@ -66,7 +66,7 @@ Get and install [Simplicity Studio](https://www.silabs.com/products/development-
 ## Community
  - [Slack](https://silabsiot.slack.com)
  - [Silicon Labs Forum](https://www.silabs.com/community)
- - [gitter](https://gitter.im/IoT-Developer-Boot-Camp/community)
+ - [gitter](https://gitter.im/Silabs-IoT)
 
 ## [Changelog](./Changelog.md)
 
