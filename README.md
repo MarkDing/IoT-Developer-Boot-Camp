@@ -3,7 +3,7 @@
 </div>
 
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-green)](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/LICENSE)
-[![Chat](https://img.shields.io/gitter/room/MarkDing/IoT-Developer-Boot-Camp)](https://gitter.im/IoT-Developer-Boot-Camp/community)
+[![Chat](https://img.shields.io/gitter/room/MarkDing/IoT-Developer-Boot-Camp)](https://gitter.im/Silabs-IoT)
 
 English | [Chinese](./README_CN.md)
 
@@ -24,7 +24,7 @@ English | [Chinese](./README_CN.md)
 - [Changelog](#Changelog)
 
 ## Background
-We would like to provide a quick start guide for those customer who are really new on our wireless product, to get the project quickly setup and put it into the production. After 1 day training course，the customer should be in entry level, able to get fundamental knowledge of the protocol and able to start their project.
+We would like to provide a quick start guide for those customer who are really new on our wireless product, to get the project quickly setup and put it into the production. After 1 day training course, the customer should be in entry level, able to get fundamental knowledge of the protocol and able to start their project.
 
 ## Architecture
 ![architecture](./images/Miscellaneous/architecture.png)
@@ -42,6 +42,7 @@ Get and install [Simplicity Studio](https://www.silabs.com/products/development-
 ## Usage
  - Read document on [Github wiki](https://github.com/MarkDing/IoT-Developer-Boot-Camp/wiki)
  - Clone hands-on code from github to local: git clone https://github.com/MarkDing/IoT-Developer-Boot-Camp.git -b <branch_name>
+ - If you may do the pull request later,please fork the repository,then clone it. 
 
 ## Contribution
  - Please refer to [Contributing Guideline](./CONTRIBUTING.md).
@@ -63,7 +64,7 @@ Get and install [Simplicity Studio](https://www.silabs.com/products/development-
 </div>
 
 ## Community
- - Slack
+ - [Slack](https://silabsiot.slack.com)
  - [Silicon Labs Forum](https://www.silabs.com/community)
  - [gitter](https://gitter.im/IoT-Developer-Boot-Camp/community)
 
