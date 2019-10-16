@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/projectIcon.png" height="120">
+  <img src="./images/Miscellaneous/projectIcon.png" height="120">
 </div>
 
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-green)](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/LICENSE)
@@ -8,7 +8,7 @@
 English | [Chinese](./README_CN.md)
 
 <div align="center">
-  <img src="./images/beacon.png" height="320">
+  <img src="./images/Miscellaneous/beacon.png" height="320">
 </div>
 
 ## Table of Contents
@@ -27,7 +27,7 @@ English | [Chinese](./README_CN.md)
 We would like to provide a quick start guide for those customer who are really new on our wireless product, to get the project quickly setup and put it into the production. After 1 day training course，the customer should be in entry level, able to get fundamental knowledge of the protocol and able to start their project.
 
 ## Architecture
-![architecture](./images/architecture.png)
+![architecture](./images/Miscellaneous/architecture.png)
 - Home 
 - Zigbee 
 - Bluetooth
