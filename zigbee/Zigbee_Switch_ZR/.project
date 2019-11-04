@@ -521,6 +521,11 @@
 			<locationURI>STUDIO_SDK_LOC/protocol/zigbee/app/framework/cli/zdo-cli.c</locationURI>
 		</link>
 		<link>
+			<name>button-interface/EFR32/button-interface.c</name>
+			<type>1</type>
+			<locationURI>STUDIO_SDK_LOC/util/plugin/plugin-common/button-interface/button-interface.c</locationURI>
+		</link>
+		<link>
 			<name>coexistence-stub/EFR32/coexistence-802154.c</name>
 			<type>1</type>
 			<locationURI>STUDIO_SDK_LOC/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154/coexistence-802154.c</locationURI>

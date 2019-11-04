@@ -759,22 +759,6 @@ uint16_t emberAfGetWakeTimeoutQsCallback(void)
   return 0;
 }
 
-/** @brief Hal Button Isr
- *
- * This callback is called by the framework whenever a button is pressed on the
- * device. This callback is called within ISR context.
- *
- * @param button The button which has changed state, either BUTTON0 or BUTTON1
- * as defined in the appropriate BOARD_HEADER.  Ver.: always
- * @param state The new state of the button referenced by the button parameter,
- * either ::BUTTON_PRESSED if the button has been pressed or ::BUTTON_RELEASED
- * if the button has been released.  Ver.: always
- */
-void emberAfHalButtonIsrCallback(uint8_t button,
-                                 uint8_t state)
-{
-}
-
 /** @brief Incoming Packet Filter
  *
  * ** REQUIRES INCLUDING THE PACKET-HANDOFF PLUGIN **
@@ -1813,6 +1797,88 @@ void emberAfPartnerLinkKeyExchangeResponseCallback(EmberNodeId sender,
 bool emberAfPerformingKeyEstablishmentCallback(void)
 {
   return false;
+}
+
+/** @brief Called when Button 0 goes high
+ *
+ * This function is called when the GPIO tied to button zero goes high
+ *
+ */
+void emberAfPluginButtonInterfaceButton0HighCallback(void)
+{
+}
+
+/** @brief Called when Button 0 goes low
+ *
+ * This function is called when the GPIO tied to button zero goes low
+ *
+ */
+void emberAfPluginButtonInterfaceButton0LowCallback(void)
+{
+}
+
+/** @brief Called when Button 0 is pressed long
+ *
+ * @param timePressedMs Amount of time button 0 was pressed.
+ * @param pressedAtReset Was the button pressed at startup.
+ */
+void emberAfPluginButtonInterfaceButton0PressedLongCallback(uint16_t timePressedMs,
+                                                            bool pressedAtReset)
+{
+}
+
+/** @brief Called when Button 0 is pressed short
+ *
+ * @param timePressedMs Time (in ms) button 0 was pressed short
+ */
+void emberAfPluginButtonInterfaceButton0PressedShortCallback(uint16_t timePressedMs)
+{
+}
+
+/** @brief Called while Button 0 is pressed
+ *
+ * This function is periodically called when button 0 is being pressed.
+ *
+ */
+void emberAfPluginButtonInterfaceButton0PressingCallback(void)
+{
+}
+
+/** @brief Called when Button 1 goes high
+ *
+ * This function is called when the GPIO tied to button one goes high
+ *
+ */
+void emberAfPluginButtonInterfaceButton1HighCallback(void)
+{
+}
+
+/** @brief Called when Button 1 goes low
+ *
+ * This function is called when the GPIO tied to button one goes low
+ *
+ */
+void emberAfPluginButtonInterfaceButton1LowCallback(void)
+{
+}
+
+/** @brief Called when Button 1 is pressed long
+ *
+ * @param timePressedMs Amount of time button 1 was pressed.
+ * @param pressedAtReset Was the button pressed at startup.
+ */
+void emberAfPluginButtonInterfaceButton1PressedLongCallback(uint16_t timePressedMs,
+                                                            bool pressedAtReset)
+{
+}
+
+/** @brief Called while Button 1 is pressed
+ *
+ * This function is periodically called when button 1 is being pressed.
+ *
+ */
+void emberAfPluginButtonInterfaceButton1PressingCallback(void)
+{
 }
 
 /** @brief Get Distributed Key

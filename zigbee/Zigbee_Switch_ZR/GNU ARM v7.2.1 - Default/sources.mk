@@ -18,6 +18,7 @@ C_DEPS :=
 SUBDIRS := \
 . \
 antenna-stub \
+button-interface/EFR32 \
 ccm-encryption \
 coexistence-stub/EFR32 \
 debug-basic-library/EFR32 \

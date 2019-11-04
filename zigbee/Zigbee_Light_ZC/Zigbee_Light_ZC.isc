@@ -361,6 +361,9 @@ endEndpointType
 configuredEndpoint:*ep:1,pi: 65535,di:65535,dv:1,ept:Primary,nwk:Primary
 callbacks:emberAfStackStatusCallback
 callbacks:emberAfPluginNetworkSteeringCompleteCallback
+callbacks:emberAfOnOffClusterToggleCallback
+callbacks:emberAfOnOffClusterOffCallback
+callbacks:emberAfOnOffClusterOnCallback
 }
 {setupId:zclCustomizer
 }

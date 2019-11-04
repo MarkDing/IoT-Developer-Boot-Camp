@@ -60,3 +60,19 @@ void emberAfPluginNetworkSteeringCompleteCallback(EmberStatus status,
 {
   emberAfCorePrintln("%p network %p: 0x%X", "Join", "complete", status);
 }
+
+
+boolean emberAfOnOffClusterOnCallback(void){
+  emberAfCorePrintln("On command is received");
+  halSetLed(1);
+}
+
+boolean emberAfOnOffClusterOffCallback(void){
+  emberAfCorePrintln("Off command is received");
+  halClearLed(1);
+}
+
+boolean emberAfOnOffClusterToggleCallback(void){
+  emberAfCorePrintln("Toggle command is received");
+  halToggleLed(1);
+}

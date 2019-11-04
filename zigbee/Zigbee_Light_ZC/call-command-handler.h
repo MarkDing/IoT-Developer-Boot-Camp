@@ -10,4 +10,7 @@
 // This is a set of generated prototype for functions that parse the
 // the incomming message, and call appropriate command handler.
 
+// Cluster: On/off, server
+EmberAfStatus emberAfOnOffClusterServerCommandParse(EmberAfClusterCommand *cmd);
+
 #endif // SILABS_EMBER_AF_COMMAND_PARSE_HEADER

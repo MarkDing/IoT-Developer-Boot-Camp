@@ -361,6 +361,7 @@ endEndpointType
 configuredEndpoint:*ep:1,pi: 65535,di:65535,dv:1,ept:Primary,nwk:Primary
 callbacks:emberAfStackStatusCallback
 callbacks:emberAfPluginNetworkSteeringCompleteCallback
+callbacks:emberAfPluginButtonInterfaceButton1PressedShortCallback
 }
 {setupId:zclCustomizer
 }
@@ -409,7 +410,8 @@ appPlugin:ble,false
 appPlugin:bulb-pwm-cli,false
 appPlugin:bulb-pwm-driver,false
 appPlugin:bulb-ui,false
-appPlugin:button-interface,false
+appPlugin:button-interface,true
+
 appPlugin:button-interface-stub,false
 appPlugin:button-joining,false
 appPlugin:calendar-client,false

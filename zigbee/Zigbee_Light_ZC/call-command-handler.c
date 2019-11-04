@@ -71,7 +71,7 @@ EmberAfStatus emberAfClusterSpecificCommandParse(EmberAfClusterCommand *cmd)
       result = status(false, true, cmd->mfgSpecific);
       break;
     case ZCL_ON_OFF_CLUSTER_ID:
-      result = status(false, true, cmd->mfgSpecific);
+      result = emberAfOnOffClusterServerCommandParse(cmd);
       break;
     default:
       // Unrecognized cluster ID, error status will apply.
@@ -79,4 +79,38 @@ EmberAfStatus emberAfClusterSpecificCommandParse(EmberAfClusterCommand *cmd)
     }
   }
   return result;
+}
+
+// Cluster: On/off, server
+EmberAfStatus emberAfOnOffClusterServerCommandParse(EmberAfClusterCommand *cmd)
+{
+  bool wasHandled = false;
+  if (!cmd->mfgSpecific) {
+    switch (cmd->commandId) {
+    case ZCL_OFF_COMMAND_ID:
+      {
+        // Command is fixed length: 0
+        wasHandled = emberAfOnOffClusterOffCallback();
+        break;
+      }
+    case ZCL_ON_COMMAND_ID:
+      {
+        // Command is fixed length: 0
+        wasHandled = emberAfOnOffClusterOnCallback();
+        break;
+      }
+    case ZCL_TOGGLE_COMMAND_ID:
+      {
+        // Command is fixed length: 0
+        wasHandled = emberAfOnOffClusterToggleCallback();
+        break;
+      }
+    default:
+      {
+        // Unrecognized command ID, error status will apply.
+        break;
+      }
+    }
+  }
+  return status(wasHandled, true, cmd->mfgSpecific);
 }
