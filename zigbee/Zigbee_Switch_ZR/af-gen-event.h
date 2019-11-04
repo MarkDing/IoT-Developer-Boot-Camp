@@ -17,6 +17,7 @@
   extern EmberEventControl emberAfPluginNetworkSteeringFinishSteeringEventControl; \
   extern EmberEventControl emberAfPluginScanDispatchScanEventControl; \
   extern EmberEventControl emberAfPluginUpdateTcLinkKeyBeginTcLinkKeyUpdateEventControl; \
+  extern EmberEventControl ledBlinking; \
   extern void emberAfPluginButtonInterfaceButton0PressedEventHandler(void); \
   extern void emberAfPluginButtonInterfaceButton0ReleasedEventHandler(void); \
   extern void emberAfPluginButtonInterfaceButton1PressedEventHandler(void); \
@@ -25,6 +26,7 @@
   extern void emberAfPluginNetworkSteeringFinishSteeringEventHandler(void); \
   extern void emberAfPluginScanDispatchScanEventHandler(void); \
   extern void emberAfPluginUpdateTcLinkKeyBeginTcLinkKeyUpdateEventHandler(void); \
+  extern void ledBlinkingHandler(void); \
 
 
 // EmberEventData structs used to populate the EmberEventData table
@@ -37,6 +39,7 @@
   { &emberAfPluginNetworkSteeringFinishSteeringEventControl, emberAfPluginNetworkSteeringFinishSteeringEventHandler }, \
   { &emberAfPluginScanDispatchScanEventControl, emberAfPluginScanDispatchScanEventHandler }, \
   { &emberAfPluginUpdateTcLinkKeyBeginTcLinkKeyUpdateEventControl, emberAfPluginUpdateTcLinkKeyBeginTcLinkKeyUpdateEventHandler }, \
+  { &ledBlinking, ledBlinkingHandler }, \
 
 
 #define EMBER_AF_GENERATED_EVENT_STRINGS   \
@@ -48,6 +51,7 @@
   "Network Steering Plugin FinishSteering",  \
   "Scan Dispatch Plugin Scan",  \
   "Update TC Link Key Plugin BeginTcLinkKeyUpdate",  \
+  "Event data",  \
 
 
 #endif // __AF_GEN_EVENT__

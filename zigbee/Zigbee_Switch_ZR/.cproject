@@ -324,7 +324,7 @@
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
 		</cconfiguration>
 	</storageModule>
-	<storageModule generalProj.esf.protocolIds="com.silabs.sdk.stack.super:2.6.3._310455070.com.silabs.sdk.stack.znet:6.6.3.0_-1255801259" generalProj.esf.protocolNames="znet" moduleId="com.silabs.ss.framework.ide.project.core.cpp" project.generation="329" projectCommon.boardIds="brd4162a:0.0.0.A01" projectCommon.importModeId="LINK_LIBRARIES" projectCommon.partId="mcu.arm.efr32.mg12.efr32mg12p332f1024gl125" projectCommon.sdkId="com.silabs.sdk.stack.super:2.6.3._310455070"/>
+	<storageModule generalProj.esf.protocolIds="com.silabs.sdk.stack.super:2.6.3._310455070.com.silabs.sdk.stack.znet:6.6.3.0_-1255801259" generalProj.esf.protocolNames="znet" moduleId="com.silabs.ss.framework.ide.project.core.cpp" project.generation="337" projectCommon.boardIds="brd4162a:0.0.0.A01" projectCommon.importModeId="LINK_LIBRARIES" projectCommon.partId="mcu.arm.efr32.mg12.efr32mg12p332f1024gl125" projectCommon.sdkId="com.silabs.sdk.stack.super:2.6.3._310455070"/>
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="Zigbee_Switch_ZR.com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType.471212761" name="SLS CDT Project" projectType="com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType"/>
 	</storageModule>

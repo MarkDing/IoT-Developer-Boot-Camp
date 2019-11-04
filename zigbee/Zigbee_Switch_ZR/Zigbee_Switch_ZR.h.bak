@@ -63,6 +63,7 @@
 #define EMBER_CALLBACK_ENERGY_SCAN_RESULT
 #define EMBER_CALLBACK_SCAN_COMPLETE
 #define EMBER_CALLBACK_NETWORK_FOUND
+#define EMBER_CALLBACK_HAL_BUTTON_ISR
 /**** Debug printing section ****/
 
 // Global switch
@@ -95,6 +96,11 @@
 #define EMBER_AF_PLUGIN_BINDING_TABLE_LIBRARY
 // User options for plugin Binding Table Library
 #define EMBER_BINDING_TABLE_SIZE 10
+
+// Use this macro to check if Button Interface plugin is included
+#define EMBER_AF_PLUGIN_BUTTON_INTERFACE
+// User options for plugin Button Interface
+#define EMBER_AF_PLUGIN_BUTTON_INTERFACE_BUTTON_TIMEOUT_MS 1000
 
 // Use this macro to check if CCM* Encryption plugin is included
 #define EMBER_AF_PLUGIN_CCM_ENCRYPTION
@@ -201,6 +207,9 @@
 
 // API antenna from Antenna Stub plugin
 #define EMBER_AF_API_ANTENNA "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/antenna/antenna.h"
+
+// API button-interface from Button Interface plugin
+#define EMBER_AF_API_BUTTON_INTERFACE "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/util/plugin/plugin-common/button-interface/button-interface.h"
 
 // API coexistence from Radio Coexistence Stub plugin
 #define EMBER_AF_API_COEXISTENCE "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154/coexistence-802154.h"

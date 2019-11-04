@@ -22,6 +22,10 @@
 
 #include "app/framework/include/af.h"
 
+
+EmberEventControl ledBlinking;
+
+
 /** @brief Stack Status
  *
  * This function is called by the application framework from the stack status
@@ -59,6 +63,22 @@ void emberAfPluginNetworkSteeringCompleteCallback(EmberStatus status,
                                                   uint8_t finalState)
 {
   emberAfCorePrintln("%p network %p: 0x%X", "Join", "complete", status);
+}
+
+void emberAfMainInitCallback(void)
+{
+  emberEventControlSetDelayMS(ledBlinking, 1000);
+}
+
+void ledBlinkingHandler(void)
+{
+  // First thing to do inside a delay event is to disable the event till next usage
+  emberEventControlSetInactive(ledBlinking);
+
+  halToggleLed(1);
+
+  //Reschedule the event after a delay of 1 seconds
+  emberEventControlSetDelayMS(ledBlinking, 1000);
 }
 
 void emberAfPluginButtonInterfaceButton1PressedShortCallback(uint16_t timePressedMs){

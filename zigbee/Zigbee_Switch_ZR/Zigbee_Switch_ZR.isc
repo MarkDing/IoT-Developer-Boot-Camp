@@ -49,6 +49,7 @@ compile,ZDO
 enable,DEBUG
 }
 {setupId:eventConfiguration
+ledBlinking,ledBlinkingHandler
 }
 {setupId:halOptions
 }
@@ -362,6 +363,7 @@ configuredEndpoint:*ep:1,pi: 65535,di:65535,dv:1,ept:Primary,nwk:Primary
 callbacks:emberAfStackStatusCallback
 callbacks:emberAfPluginNetworkSteeringCompleteCallback
 callbacks:emberAfPluginButtonInterfaceButton1PressedShortCallback
+callbacks:emberAfMainInitCallback
 }
 {setupId:zclCustomizer
 }
