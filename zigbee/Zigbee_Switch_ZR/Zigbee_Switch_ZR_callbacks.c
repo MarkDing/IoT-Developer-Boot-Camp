@@ -25,6 +25,8 @@
 
 EmberEventControl ledBlinking;
 
+// Non-volatile Data Storage: Step 1
+ledOnOffStatus_t led1OnOffStatus;
 
 /** @brief Stack Status
  *
@@ -67,6 +69,25 @@ void emberAfPluginNetworkSteeringCompleteCallback(EmberStatus status,
 
 void emberAfMainInitCallback(void)
 {
+  // Non-volatile Data Storage: Step 4
+  tokTypeMfgString mfgString;
+  halCommonGetMfgToken(mfgString, TOKEN_MFG_STRING);
+  emberAfAppPrintln("MFG String: %s", mfgString);
+
+  // Non-volatile Data Storage: Step 1
+  // Retrieve the LED1 status before reset/power-off from the token
+  halCommonGetToken(&led1OnOffStatus, TOKEN_LED1_ON_OFF);
+
+  emberAfCorePrintln("The LED%d previous status is %s", led1OnOffStatus.ledIndex, (led1OnOffStatus.ledOnOff)?"On":"Off");
+
+  // Restore the LED1 status during initialization
+  if(led1OnOffStatus.ledOnOff){
+	  halSetLed(led1OnOffStatus.ledIndex);
+  }
+  else{
+	  halClearLed(led1OnOffStatus.ledIndex);
+  }
+
   emberEventControlSetDelayMS(ledBlinking, 1000);
 }
 
@@ -75,7 +96,14 @@ void ledBlinkingHandler(void)
   // First thing to do inside a delay event is to disable the event till next usage
   emberEventControlSetInactive(ledBlinking);
 
-  halToggleLed(1);
+  // halToggleLed(1);
+  // Non-volatile Data Storage: Step 2
+  // Retrieve the previous status of LED1
+  halCommonGetToken(&led1OnOffStatus, TOKEN_LED1_ON_OFF);
+  halToggleLed(led1OnOffStatus.ledIndex);
+  led1OnOffStatus.ledOnOff = !led1OnOffStatus.ledOnOff;
+  // Store the current status of LED1
+  halCommonSetToken(TOKEN_LED1_ON_OFF, &led1OnOffStatus);
 
   //Reschedule the event after a delay of 1 seconds
   emberEventControlSetDelayMS(ledBlinking, 1000);
