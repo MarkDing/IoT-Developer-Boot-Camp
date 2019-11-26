@@ -99,12 +99,6 @@ EmberAfStatus emberAfOnOffClusterServerCommandParse(EmberAfClusterCommand *cmd)
         wasHandled = emberAfOnOffClusterOnCallback();
         break;
       }
-    case ZCL_TOGGLE_COMMAND_ID:
-      {
-        // Command is fixed length: 0
-        wasHandled = emberAfOnOffClusterToggleCallback();
-        break;
-      }
     default:
       {
         // Unrecognized command ID, error status will apply.

@@ -7,7 +7,7 @@
 #endif
 
 // Token header for the token.properties.
-#include "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/framework/util/tokens.h"
+#include "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/framework/util/tokens.h"
 
 // Custom token header file
 #include "custom-token.h"
