@@ -30,7 +30,7 @@ def S37():
         MOTOROLLA_32_BIT_COMMAND = WINE + "\"" + TOOLCHAIN_DIR + \
             "/bin/ielftool.exe\" " + OUT_FILE + " --srec --srec-s3only " + S37_BINARY
     else:
-        GCC_TOOLCHAIN_PATH = shortPath(r"file:/C:/SiliconLabs/SimplicityStudio/v4/developer/toolchains/gnu_arm/7.2_2017q4/".replace(
+        GCC_TOOLCHAIN_PATH = shortPath(r"file:/C:/SiliconLabs/SimplicityStudio/v4_3/developer/toolchains/gnu_arm/7.2_2017q4/".replace(
             "file:", "").replace("%20", " "))
         if (GCC_TOOLCHAIN_PATH != "" and os.path.exists(
                 GCC_TOOLCHAIN_PATH[1:])):
@@ -58,7 +58,7 @@ def EBL():
     print (" ")
     print ("This converts S37 to Ember Bootload File format if a bootloader has been selected in AppBuilder")
     print (" ")
-    EBL_COMMAND = START_FLAGS + shortPath(r"C:\SiliconLabs\SimplicityStudio\v4\developer\adapter_packs\commander\commander.exe").replace(
+    EBL_COMMAND = START_FLAGS + shortPath(r"C:\SiliconLabs\SimplicityStudio\v4_3\developer\adapter_packs\commander\commander.exe").replace(
         " ", "\ ") + " ebl create " + EBL_FILE + " --app " + S37_BINARY + " --device EFR32MG12P332F1024GL125 " + CONVERT_FLAGS
     eblProcess = os.popen(EBL_COMMAND)
     eblOutput = eblProcess.read()
@@ -76,7 +76,7 @@ def GBL():
     print (" ")
     print ("Note that this GBL file does not use encryption or digital signing.  Please refer to UG266 for more information about enabling these features from your S37 files.")
     GBL_FILE = "\"" + os.path.join(TARGET_BPATH + ".gbl") + "\""
-    GBL_COMMAND = START_FLAGS + shortPath(r"C:\SiliconLabs\SimplicityStudio\v4\developer\adapter_packs\commander\commander.exe").replace(
+    GBL_COMMAND = START_FLAGS + shortPath(r"C:\SiliconLabs\SimplicityStudio\v4_3\developer\adapter_packs\commander\commander.exe").replace(
         " ", "\ ") + " gbl create " + GBL_FILE + " --app " + S37_BINARY + " --device EFR32MG12P332F1024GL125"
     gblProcess = os.popen(GBL_COMMAND)
     gblOutput = gblProcess.read()

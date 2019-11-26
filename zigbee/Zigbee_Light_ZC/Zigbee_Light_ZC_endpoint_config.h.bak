@@ -35,7 +35,6 @@
 
 // Cluster function static arrays
 #define GENERATED_FUNCTION_ARRAYS \
-const EmberAfGenericClusterFunction emberAfFuncArrayOnOffClusterServer[] = { (EmberAfGenericClusterFunction)emberAfOnOffClusterServerInitCallback}; \
 
 
 // Clusters definitions
@@ -44,7 +43,7 @@ const EmberAfGenericClusterFunction emberAfFuncArrayOnOffClusterServer[] = { (Em
     { 0x0003, (EmberAfAttributeMetadata*)&(generatedAttributes[3]), 2, 4, (CLUSTER_MASK_SERVER), NULL,  },    \
     { 0x0004, (EmberAfAttributeMetadata*)&(generatedAttributes[5]), 2, 3, (CLUSTER_MASK_SERVER), NULL,  },    \
     { 0x0005, (EmberAfAttributeMetadata*)&(generatedAttributes[7]), 6, 8, (CLUSTER_MASK_SERVER), NULL,  },    \
-    { 0x0006, (EmberAfAttributeMetadata*)&(generatedAttributes[13]), 2, 3, (CLUSTER_MASK_SERVER| CLUSTER_MASK_INIT_FUNCTION), emberAfFuncArrayOnOffClusterServer, },    \
+    { 0x0006, (EmberAfAttributeMetadata*)&(generatedAttributes[13]), 2, 3, (CLUSTER_MASK_SERVER), NULL,  },    \
   }
 
 
@@ -153,11 +152,8 @@ const EmberAfGenericClusterFunction emberAfFuncArrayOnOffClusterServer[] = { (Em
     { 0x0005, 0x03, COMMAND_MASK_OUTGOING_SERVER }, /* Scenes / RemoveAllScenesResponse */ \
     { 0x0005, 0x04, COMMAND_MASK_OUTGOING_SERVER }, /* Scenes / StoreSceneResponse */ \
     { 0x0005, 0x06, COMMAND_MASK_OUTGOING_SERVER }, /* Scenes / GetSceneMembershipResponse */ \
-    { 0x0006, 0x00, COMMAND_MASK_INCOMING_SERVER }, /* On/off / Off */ \
-    { 0x0006, 0x01, COMMAND_MASK_INCOMING_SERVER }, /* On/off / On */ \
-    { 0x0006, 0x02, COMMAND_MASK_INCOMING_SERVER }, /* On/off / Toggle */ \
   }
-#define EMBER_AF_GENERATED_COMMAND_COUNT (14)
+#define EMBER_AF_GENERATED_COMMAND_COUNT (11)
 
 // Command manufacturer codes
 #define GENERATED_COMMAND_MANUFACTURER_CODES {      \

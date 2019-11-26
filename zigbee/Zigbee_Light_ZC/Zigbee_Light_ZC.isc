@@ -1,10 +1,10 @@
 #ISD afv6
-# Simplicity Studio version: 5.10.4.201909101634-1527
+# Simplicity Studio version: 5.12.1.201911130818-1544
 FrameworkDirectory:protocol\zigbee\app\framework
 
 appId: znet
 frameworkVariant: em35x
-GenerationDirectory:PATH(ABSOLUTE):C:\tothpatrik92\IoT-Developer-Boot-Camp\zigbee\Zigbee_Light_ZC
+GenerationDirectory:PATH(ABSOLUTE):C:\Users\yucheng\SimplicityStudio\v4_workspace_new\Zigbee_Light_ZC
 
 DeviceName:Zigbee_Light_ZC
 
@@ -45,8 +45,10 @@ area name off
 appSerial=1
 remove,ATTRIBUTES
 compile,DEBUG
+compile,ON_OFF_CLUSTER
 compile,ZDO
 enable,DEBUG
+enable,ON_OFF_CLUSTER
 }
 {setupId:eventConfiguration
 }
@@ -361,7 +363,6 @@ endEndpointType
 configuredEndpoint:*ep:1,pi: 65535,di:65535,dv:1,ept:Primary,nwk:Primary
 callbacks:emberAfStackStatusCallback
 callbacks:emberAfPluginNetworkSteeringCompleteCallback
-callbacks:emberAfOnOffClusterToggleCallback
 callbacks:emberAfOnOffClusterOffCallback
 callbacks:emberAfOnOffClusterOnCallback
 }

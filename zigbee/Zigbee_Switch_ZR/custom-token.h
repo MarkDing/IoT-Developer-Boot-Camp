@@ -24,4 +24,3 @@ DEFINE_BASIC_TOKEN(LED1_ON_OFF,
 					ledOnOffStatus_t,
 					{1, false})
 #endif
-

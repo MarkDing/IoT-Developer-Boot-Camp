@@ -74,15 +74,17 @@
 #define EMBER_AF_PRINT_DEBUG 0x0002
 #define EMBER_AF_PRINT_APP 0x0004
 #define EMBER_AF_PRINT_ZDO 0x0008
-#define EMBER_AF_PRINT_BITS { 0x0F }
+#define EMBER_AF_PRINT_ON_OFF_CLUSTER 0x0010
+#define EMBER_AF_PRINT_BITS { 0x1F }
 #define EMBER_AF_PRINT_NAMES { \
   "Core",\
   "Debug",\
   "Application",\
   "ZDO (ZigBee Device Object)",\
+  "On/off",\
   NULL\
 }
-#define EMBER_AF_PRINT_NAME_NUMBER 4
+#define EMBER_AF_PRINT_NAME_NUMBER 5
 
 
 #define EMBER_AF_SUPPORT_COMMAND_DISCOVERY
@@ -123,6 +125,9 @@
 
 // Use this macro to check if HAL Library plugin is included
 #define EMBER_AF_PLUGIN_HAL_LIBRARY
+
+// Use this macro to check if Install Code Library plugin is included
+#define EMBER_AF_PLUGIN_INSTALL_CODE_LIBRARY
 
 // Use this macro to check if mbed TLS plugin is included
 #define EMBER_AF_PLUGIN_MBEDTLS
@@ -207,34 +212,34 @@
 // Generated API headers
 
 // API antenna from Antenna Stub plugin
-#define EMBER_AF_API_ANTENNA "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/antenna/antenna.h"
+#define EMBER_AF_API_ANTENNA "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/antenna/antenna.h"
 
 // API button-interface from Button Interface plugin
-#define EMBER_AF_API_BUTTON_INTERFACE "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/util/plugin/plugin-common/button-interface/button-interface.h"
+#define EMBER_AF_API_BUTTON_INTERFACE "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/util/plugin/plugin-common/button-interface/button-interface.h"
 
 // API coexistence from Radio Coexistence Stub plugin
-#define EMBER_AF_API_COEXISTENCE "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154/coexistence-802154.h"
+#define EMBER_AF_API_COEXISTENCE "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/platform/radio/rail_lib/plugin/coexistence/protocol/ieee802154/coexistence-802154.h"
 
 // API network-steering from Network Steering plugin
-#define EMBER_AF_API_NETWORK_STEERING "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/framework/plugin/network-steering/network-steering.h"
+#define EMBER_AF_API_NETWORK_STEERING "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/framework/plugin/network-steering/network-steering.h"
 
 // API nvm3 from NVM3 Library plugin
-#define EMBER_AF_API_NVM3 "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/nvm3/nvm3-token.h"
+#define EMBER_AF_API_NVM3 "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/nvm3/nvm3-token.h"
 
 // API rail-library from RAIL Library plugin
-#define EMBER_AF_API_RAIL_LIBRARY "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/radio/rail_lib/common/rail.h"
+#define EMBER_AF_API_RAIL_LIBRARY "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/platform/radio/rail_lib/common/rail.h"
 
 // API scan-dispatch from Scan Dispatch plugin
-#define EMBER_AF_API_SCAN_DISPATCH "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/framework/plugin/scan-dispatch/scan-dispatch.h"
+#define EMBER_AF_API_SCAN_DISPATCH "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/framework/plugin/scan-dispatch/scan-dispatch.h"
 
 // API serial from Serial plugin
-#define EMBER_AF_API_SERIAL "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/serial/serial.h"
+#define EMBER_AF_API_SERIAL "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/platform/base/hal/plugin/serial/serial.h"
 
 // API update-tc-link-key from Update TC Link Key plugin
-#define EMBER_AF_API_UPDATE_TC_LINK_KEY "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/framework/plugin/update-tc-link-key/update-tc-link-key.h"
+#define EMBER_AF_API_UPDATE_TC_LINK_KEY "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/framework/plugin/update-tc-link-key/update-tc-link-key.h"
 
 // API command-interpreter2 from ZCL Framework Core plugin
-#define EMBER_AF_API_COMMAND_INTERPRETER2 "../../../../SiliconLabs/SimplicityStudio/v4/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/util/serial/command-interpreter2.h"
+#define EMBER_AF_API_COMMAND_INTERPRETER2 "../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/protocol/zigbee/app/util/serial/command-interpreter2.h"
 
 
 // Custom macros
