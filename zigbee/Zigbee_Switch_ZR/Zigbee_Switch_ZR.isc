@@ -1,5 +1,5 @@
 #ISD afv6
-# Simplicity Studio version: 5.12.1.201911130818-1544
+# Simplicity Studio version: 5.14.0.201912061158-11
 FrameworkDirectory:protocol\zigbee\app\framework
 
 appId: znet
@@ -365,8 +365,9 @@ endEndpointType
 configuredEndpoint:*ep:1,pi: 65535,di:65535,dv:1,ept:Primary,nwk:Primary
 callbacks:emberAfStackStatusCallback
 callbacks:emberAfPluginNetworkSteeringCompleteCallback
-callbacks:emberAfPluginButtonInterfaceButton1PressedShortCallback
 callbacks:emberAfMainInitCallback
+callbacks:emberAfPluginButtonInterfaceButton0PressedShortCallback
+callbacks:emberAfPluginButtonInterfaceButton1PressedShortCallback
 }
 {setupId:zclCustomizer
 }
