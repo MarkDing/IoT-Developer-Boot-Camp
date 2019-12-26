@@ -62,19 +62,34 @@ void emberAfPluginNetworkSteeringCompleteCallback(EmberStatus status,
 }
 
 // Sending-OnOff-Commands: Step 2
-void emberAfPluginButtonInterfaceButton1PressedShortCallback(uint16_t timePressedMs){
+void emberAfPluginButtonInterfaceButton0PressedShortCallback(uint16_t timePressedMs)
+{
+  emberAfCorePrintln("Button0 is pressed for %d milliseconds",timePressedMs);
 
+  EmberStatus status;
+
+  emberAfFillCommandOnOffClusterOn()
+  emberAfCorePrintln("Command is zcl on-off ON");
+
+  emberAfSetCommandEndpoints(emberAfPrimaryEndpoint(),1);
+  status=emberAfSendCommandUnicast(EMBER_OUTGOING_DIRECT, 0x0000);
+
+  if(status == EMBER_SUCCESS){
+    emberAfCorePrintln("Command is successfully sent");
+  }else{
+    emberAfCorePrintln("Failed to send");
+    emberAfCorePrintln("Status code: 0x%x",status);
+  }
+}
+
+void emberAfPluginButtonInterfaceButton1PressedShortCallback(uint16_t timePressedMs)
+{
   emberAfCorePrintln("Button1 is pressed for %d milliseconds",timePressedMs);
 
   EmberStatus status;
 
-  if(timePressedMs < 200){
-    emberAfFillCommandOnOffClusterOn()
-    emberAfCorePrintln("Command is zcl on-off ON");
-  }else{
-    emberAfFillCommandOnOffClusterOff()
-    emberAfCorePrintln("Command is zcl on-off OFF");
-  }
+  emberAfFillCommandOnOffClusterOff()
+  emberAfCorePrintln("Command is zcl on-off OFF");
 
   emberAfSetCommandEndpoints(emberAfPrimaryEndpoint(),1);
   status=emberAfSendCommandUnicast(EMBER_OUTGOING_DIRECT, 0x0000);

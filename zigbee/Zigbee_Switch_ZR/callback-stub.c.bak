@@ -923,30 +923,6 @@ void emberAfOnOffClusterLevelControlEffectCallback(uint8_t endpoint,
 {
 }
 
-/** @brief Main Init
- *
- * This function is called from the application's main function. It gives the
- * application a chance to do any initialization required at system startup. Any
- * code that you would normally put into the top of the application's main()
- * routine should be put into this function. This is called before the clusters,
- * plugins, and the network are initialized so some functionality is not yet
- * available.
-        Note: No callback in the Application Framework is
- * associated with resource cleanup. If you are implementing your application on
- * a Unix host where resource cleanup is a consideration, we expect that you
- * will use the standard Posix system calls, including the use of atexit() and
- * handlers for signals such as SIGTERM, SIGINT, SIGCHLD, SIGPIPE and so on. If
- * you use the signal() function to register your signal handler, please mind
- * the returned value which may be an Application Framework function. If the
- * return value is non-null, please make sure that you call the returned
- * function from your handler to avoid negating the resource cleanup of the
- * Application Framework itself.
- *
- */
-void emberAfMainInitCallback(void)
-{
-}
-
 /** @brief Main Start
  *
  * This function is called at the start of main after the HAL has been
@@ -1835,15 +1811,6 @@ void emberAfPluginButtonInterfaceButton0PressedShortCallback(uint16_t timePresse
 {
 }
 
-/** @brief Called while Button 0 is pressed
- *
- * This function is periodically called when button 0 is being pressed.
- *
- */
-void emberAfPluginButtonInterfaceButton0PressingCallback(void)
-{
-}
-
 /** @brief Called when Button 1 goes high
  *
  * This function is called when the GPIO tied to button one goes high
@@ -1872,12 +1839,11 @@ void emberAfPluginButtonInterfaceButton1PressedLongCallback(uint16_t timePressed
 {
 }
 
-/** @brief Called while Button 1 is pressed
+/** @brief Called when Button 1 is pressed short
  *
- * This function is periodically called when button 1 is being pressed.
- *
+ * @param timePressedMs Time (in ms) button 1 was pressed short
  */
-void emberAfPluginButtonInterfaceButton1PressingCallback(void)
+void emberAfPluginButtonInterfaceButton1PressedShortCallback(uint16_t timePressedMs)
 {
 }
 

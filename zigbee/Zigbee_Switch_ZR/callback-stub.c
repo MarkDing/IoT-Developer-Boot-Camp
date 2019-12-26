@@ -1803,14 +1803,6 @@ void emberAfPluginButtonInterfaceButton0PressedLongCallback(uint16_t timePressed
 {
 }
 
-/** @brief Called when Button 0 is pressed short
- *
- * @param timePressedMs Time (in ms) button 0 was pressed short
- */
-void emberAfPluginButtonInterfaceButton0PressedShortCallback(uint16_t timePressedMs)
-{
-}
-
 /** @brief Called while Button 0 is pressed
  *
  * This function is periodically called when button 0 is being pressed.

@@ -74,6 +74,7 @@ SOURCE_FILES = \
   ../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/platform/emdrv/uartdrv/src/uartdrv.c \
  \
 ../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/platform\base\hal\plugin\antenna-stub\antenna-stub.c \
+../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/util\plugin\plugin-common\button-interface\button-interface.c \
 ../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/protocol\zigbee\stack\framework\ccm-star.c \
 ../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154\coexistence-802154.c \
 ../../../../../SiliconLabs/SimplicityStudio/v4_3/developer/sdks/gecko_sdk_suite/v2.6/platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154\coulomb-counter-802154.c \
