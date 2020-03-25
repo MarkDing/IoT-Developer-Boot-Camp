@@ -67,7 +67,7 @@ common | CM
 We didn't define the naming rule about the images, however, the basic principle is that use the clear abbreviations to avoid too long file name, and make sure the name convey the purpose of the picture (or screenshot) as clearly as possible.  
 
 ### 2.2.3 Documentation translation
-Translate the existing documentations in this repo to any other language is really appreciated, and it will be helpful to the non-English native reader in understanding the content better. Because there are lots of specific terms appear in the wireless protocol specifications and Silicon Labs official documentations, we defined the conventions for documentations translation in each sub project as a guideline. 
+Translate the existing documentations in this repo to any other language is really appreciated, and it will be helpful to the non-English native reader in understanding the content better. Because there are lots of specific terms appear in the wireless protocol specifications and Silicon Labs official documentations, we defined the conventions for documentations translation in each sub project as a guideline.  
 [Conventions of Chinese translation for Zigbee Boot Camp project](https://github.com/MarkDing/IoT-Developer-Boot-Camp/wiki/Zigbee-Conventions-of-Chinese-translation)
 
 ## 2.3. How to Get Code ?
