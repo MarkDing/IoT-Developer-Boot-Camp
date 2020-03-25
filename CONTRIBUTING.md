@@ -9,6 +9,9 @@ And please follow the guidelines below for contributing to IoT-Developer-Boot-Ca
 - [2. Contributing Guideline](#2-contributing-guideline)
     - [2.1. Coding Standard](#21-coding-standard)
     - [2.2. Documentation Rule](#22-documentation-rule)
+        - [2.2.1 Directory structure](#221-directory-structure)
+        - [2.2.2 Naming folder and documentation](#222-naming-folder-and-documentation)
+        - [2.2.3 Documentation translation](#223-documentation-translation)
     - [2.3. How to Get Code ?](#23-how-to-get-code-)
     - [2.4. Reporting Issues](#24-reporting-issues)
         - [2.4.1. Bug Report](#241-bug-report)
@@ -32,6 +35,7 @@ All of the source code of this project are hosted by the repository [IoT-Develop
 Every GitHub repository comes equipped with a section for hosting documentation, called a wiki. In this project, all of the documentation of the repository are hosted in the [Wiki](https://github.com/MarkDing/IoT-Developer-Boot-Camp/wiki).  
 Wikis are available to the public in public repository, which is [IoT-Developer-Boot-Camp-Wiki](https://github.com/MarkDing/IoT-Developer-Boot-Camp-Wiki) in this project, user can access and contribute the documentations by following the [code of conduct](https://github.com/MarkDing/IoT-Developer-Boot-Camp/blob/master/CODE-OF-CONDUCT.md). For contributing to this repository, it highly recommended to write content in Markdown.  
 
+### 2.2.1 Directory structure
 There are several different directories for different wireless sub projects in the Wiki repository [IoT-Developer-Boot-Camp-Wiki](https://github.com/MarkDing/IoT-Developer-Boot-Camp-Wiki), such as Zigbee, Bluetooth, Proprietary respectively. All of the markdown files of the sub projects should be placed in the associated directory. In addition, there is a dedicated subdirectory ***files*** in each directory used for organizing all of the attachments of the sub projects, that includes images, scripts, slides and any other documentations except markdown.  
 
 The directory structure of the Wiki repository seems like below. 
@@ -47,6 +51,7 @@ The directory structure of the Wiki repository seems like below.
    **common**: documentations for the fundamental IoT introduction, wireless fundamentals.  
    **files**: Contains all of the copy of the subdirectories in the **files** folder of each sub projects.  
 
+### 2.2.2 Naming folder and documentation
 Please note that all of the folder name and file name includes documentations and images should be connected with dash line '-' if multiple words present. And a subdirectory under the ***files*** folder is required to organize the materials for each topic, the subdirectory name should same as the associated markdown file of that topic except following a prefix for better readability.  
 Take the Zigbee hands on topic "Hands on : Forming and Joining" as example, there are many screenshots and script are included in this documentations, we created a subdirectory "ZB-Hands-on-Forming-and-Joining" under the ***files*** folder to organize the screenshots and script, the prefix "ZB" refers to "Zigbee". The table below defines different prefix for different wireless sub projects.  
 
@@ -60,6 +65,10 @@ hardware | HW
 common | CM
 
 We didn't define the naming rule about the images, however, the basic principle is that use the clear abbreviations to avoid too long file name, and make sure the name convey the purpose of the picture (or screenshot) as clearly as possible.  
+
+### 2.2.3 Documentation translation
+Translate the existing documentations in this repo to any other language is really appreciated, and it will be helpful to the non-English native reader in understanding the content better. Because there are lots of specific terms appear in the wireless protocol specifications and Silicon Labs official documentations, we defined the conventions for documentations translation in each sub project as a guideline. 
+[Conventions of Chinese translation for Zigbee Boot Camp project](https://github.com/MarkDing/IoT-Developer-Boot-Camp/wiki/Zigbee-Conventions-of-Chinese-translation)
 
 ## 2.3. How to Get Code ?
 The user can access and read the source code online [here](https://github.com/MarkDing/IoT-Developer-Boot-Camp), or clone all source code from github to local with command line or GUI tool (for e.g., [Github Desktop](https://desktop.github.com/)).  
